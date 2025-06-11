@@ -1,0 +1,179 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sci-Fi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <canvas id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-circle"></div>
+                <span class="logo-text">Portfolio</span>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-input">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image"></div>
+            <h1 class="hero-title">
+                <span class="gradient-text">MiniMoFe</span>
+            </h1>
+            <p class="hero-subtitle">Full Stack Developer & Creative Designer</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">View Work</button>
+                <button class="btn-secondary">Contact Me</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">About Me</span>
+            </h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        I am one of those people who dream of becoming a programmer, But many things
+                        don't support me. Even though i haven't finished my studie yet,i will continue
+                        to try to make this come true. Y H Y
+                    </p>
+                    <p class="about-paragraph">
+                        When i get off work and whenever ihave free time. I often search information to enhance
+                        my knowledge in many thing. including programming. And of course, all this is so that one day iwill make my dream come true. Y H Y
+                    </p>
+                    <div class="skills-container">
+                        <span class="skill-tag">html</span>
+                        <span class="skill-tag">css</span>
+                        <span class="skill-tag">javascript</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">Featured Projects</span>
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <h3 class="project-title">Project 1</h3>
+                    <p class="project-description"> Comeming Soon.
+                        
+                    </p>
+                    <div class="project-footer">
+                        <div class="project-tags">
+                            <span class="project-tag blue">Html</span>
+                            <span class="project-tag orange">Css</span>
+                            <span class="project-tag people">Javascript</span>
+                        </div>
+                        <button class="view-button">View →</button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <h3 class="project-title">Project 2</h3>
+                    <p class="project-description">
+                        Comeming soon.
+                    </p>
+                    <div class="project-footer">
+                        <div class="project-tags">
+                            <span class="project-tag blue">Html</span>
+                            <span class="project-tag orange">Css</span>
+                            <span class="project-tag people">Javascript</span>
+                        </div>
+                        <button class="view-button">View →</button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <h3 class="project-title">Project 3</h3>
+                    <p class="project-description">
+                        Comeming soon.
+                    </p>
+                    <div class="project-footer">
+                        <div class="project-tags">
+                            <span class="project-tag blue">Html</span>
+                            <span class="project-tag orange">Css</span>
+                            <span class="project-tag people">Javascript</span>
+                        </div>
+                        <button class="view-button">View →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">Get In Touch</span>
+            </h2>
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Send Message</button>
+                </form>
+                
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/1QzZa7tNtH/" class="social-link" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/flo_yhy_?igsh=MWhvdng5bTlkOHhtNw==" class="social-link" target="_blank">Instagram</a>
+                    <a href="https://line.me/ti/p/rs7FuSEl4Is" class="social-link" target="_blank">line</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; My personal portfolio 2025</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
